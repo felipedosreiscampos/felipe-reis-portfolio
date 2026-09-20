@@ -668,7 +668,7 @@ img { display: block; max-width: 100%; }
     featuredTimer = window.setTimeout(() => {
       const currentIndex = getFeaturedIndex();
       activateFeaturedCase(featuredOrder[(Math.max(0, currentIndex) + 1) % featuredOrder.length]);
-    }, 4000);
+    }, 8000);
   };
   const activateFeaturedCase = (targetId) => {
     const input = document.getElementById(targetId);
